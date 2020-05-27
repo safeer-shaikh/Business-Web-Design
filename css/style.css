@@ -1,0 +1,157 @@
+/*.navbar{
+	background-color: #D6D55A !important;
+}*/
+
+.info{
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;  
+}
+
+.info > p{
+	font-size: 20px;
+}
+
+.mainCard{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.mainCard1, .mainCard2, .mainCard3{
+	display: flex;
+	width: 350px;
+	height: 100px;
+	background-color: #fff;
+	box-shadow: 2px 4px 5px;
+	color: #303030;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.fa-thumbs-o-up{
+	font-size: 40px !important;
+	margin-right: 10px;
+}
+
+.fa-truck{
+	font-size: 40px !important;
+	margin-right: 10px;
+}
+
+.fa-handshake-o{
+	font-size: 40px !important;
+	margin-right: 10px;
+}
+
+.products{
+	margin-top: 50px;
+}
+
+.heading{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.card{
+	justify-content: center;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.btn-success{
+	width: 100%;
+}
+
+.up-footer{
+	margin-top: 50px;
+	width: 100%;
+	height: 45vh;
+	background-color: #303030;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bt-footer{
+	width: 100%;
+	height: 3vh;
+/*	background-color: #D6D55A;*/
+}
+
+.left-footer{ 
+	margin-left: 40px;
+	width: 400px;
+	height: 45vh;
+	color: #fff;
+}
+
+.middle-footer{
+	margin-left: 30px;
+	width: 400px;
+	height: 45vh;
+	color: #fff;
+}
+
+.right-footer{
+	margin-left: 30px;
+	width: 400px;
+	height: 45vh;
+	color: #fff;
+}
+
+.middle-footer > a{
+	font-size: 30px;
+	padding: 5px;
+	color: inherit;	
+}
+
+.right-footer > ul > li > a{
+	color: inherit;
+}
+
+.right-footer > ul > li > a:hover{
+	border: 1px solid;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #303030;
+	width: 100px;
+}
+
+.bt-footer1{
+	padding-top: 10px;
+	width: 400px;
+	float: left;
+	margin-left: 50px;
+}
+
+.bt-footer2{
+	padding-top: 10px;
+	float: right;
+	margin-right: 50px;
+}
+
+.mainCard1 > div > a{
+	color: inherit;
+}
+
+.mainCard2 > div > a{
+	color: inherit;
+}
+
+.mainCard3 > div > a{
+	color: inherit;
+}
+
+@media (max-width: 1200px){
+	.left-footer{margin-left: 40px;}
+	.middle-footer{margin-left: 30px;}
+	.right-footer{max-width: 100px; margin-left: 0px;}
+}
+
+@media(max-width: 980px){
+	.middle-footer{max-width: 350px;}
+}
